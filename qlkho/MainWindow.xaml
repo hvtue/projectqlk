@@ -226,7 +226,7 @@
             <StackPanel Background="{DynamicResource PrimaryHueDarkForegroundBrush}" OpacityMask="{DynamicResource PrimaryHueDarkBrush}">
                 
                 <Button x:Name="loin" Content="loin" Command="{Binding cmdNewuser}" CommandParameter="{Binding ElementName=txtsearch}"></Button>
-                <Button x:Name="lout" Content="lout"></Button>
+                <Button x:Name="lout" Content="lout" Command="{Binding cmdEdit}" CommandParameter="{Binding Text, ElementName=txtsearch}"></Button>
                 <TextBox x:Name="txt" Text="abc"></TextBox>
                 <ListView x:Name="listView" Height="100" d:ItemsSource="{d:SampleData ItemCount=5}">
                     <ListView.View>
