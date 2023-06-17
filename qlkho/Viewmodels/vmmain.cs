@@ -15,7 +15,9 @@ namespace qlkho.Viewmodels
         public event PropertyChangedEventHandler? PropertyChanged;
         public vmmain() {
             cmdNewuser = new relayCommand(excuteNew);
+            cmdEdit = new relayCommand(executeEdit);
         }
+
        
         private void OnPropertyChanged(string name)
         {
@@ -37,5 +39,17 @@ namespace qlkho.Viewmodels
                 MessageBox.Show(obj.ToString());
             }
         }
+
+        private ICommand _cmdEdit;
+        public ICommand cmdEdit
+        {
+            get { return _cmdEdit; }
+            set { _cmdEdit = value; OnPropertyChanged(nameof(cmdEdit)); }
+        }
+        private void executeEdit(object obj)
+        {
+            MessageBox.Show(obj.ToString());
+        }
+
     }
 }
