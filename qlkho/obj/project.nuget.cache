@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "rvQ7giGKM6zPGKzk+gVRG7VRmNTey81bXhxOWObPira7AgpxiNC14+P3PNfzyu/D4n0DC9iKHUrvOjBDYXMbRQ==",
+  "success": true,
+  "projectFilePath": "G:\\My Drive\\Mdtap\\QLKHO\\qlkho\\qlkho\\qlkho.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\controlzex\\4.3.0\\controlzex.4.3.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\mahapps.metro\\2.0.0\\mahapps.metro.2.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\materialdesignthemes.mahapps\\0.3.0\\materialdesignthemes.mahapps.0.3.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}
