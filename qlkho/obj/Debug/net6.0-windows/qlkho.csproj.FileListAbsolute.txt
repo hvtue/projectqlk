@@ -121,3 +121,5 @@ G:\My Drive\Mdtap\QLKHO\qlkho\qlkho\obj\Debug\net6.0-windows\qlkho.pdb
 G:\My Drive\Mdtap\QLKHO\qlkho\qlkho\obj\Debug\net6.0-windows\qlkho.genruntimeconfig.cache
 G:\My Drive\Mdtap\QLKHO\qlkho\qlkho\obj\Debug\net6.0-windows\ref\qlkho.dll
 G:\My Drive\Mdtap\QLKHO\qlkho\qlkho\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+G:\My Drive\Mdtap\QLKHO\qlkho\qlkho\obj\Debug\net6.0-windows\Views\frmUser.g.cs
+G:\My Drive\Mdtap\QLKHO\qlkho\qlkho\obj\Debug\net6.0-windows\Views\frmUser.baml

@@ -97,7 +97,7 @@
             materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
             BorderThickness="0"
             MinWidth="200"
-            VerticalAlignment="Center" x:Name="txtsearch" />
+            VerticalAlignment="Center" x:Name="txtsearch" Text="one Time lúc khởi động" />
                             <Button
             Style="{DynamicResource MaterialDesignToolButton}"
             Grid.Column="2">
@@ -227,7 +227,8 @@
                 
                 <Button x:Name="loin" Content="loin" Command="{Binding cmdNewuser}" CommandParameter="{Binding ElementName=txtsearch}"></Button>
                 <Button x:Name="lout" Content="lout" Command="{Binding cmdEdit}" CommandParameter="{Binding Text, ElementName=txtsearch}"></Button>
-                <TextBox x:Name="txt" Text="{Binding Text, ElementName=txtsearch}" ></TextBox>
+                <TextBox x:Name="txt" Text="{Binding Text, ElementName=txtsearch}" Background="Beige" ></TextBox>
+                <TextBox x:Name="txttow" Text="{Binding Text, ElementName=txtsearch, Mode=OneTime}"></TextBox>
                 <ListView x:Name="listView" Height="100" d:ItemsSource="{d:SampleData ItemCount=5}">
                     <ListView.View>
                         <GridView>
